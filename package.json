@@ -1,0 +1,37 @@
+{
+  "name": "taipei-little-doudou-parenting-pass",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "description": "2024 臺北秋季程式設計節-城市通微服務大黑客松 決賽作品 - 台北小杜鵑育兒通",
+  "scripts": {
+    "build": "nuxi build",
+    "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "prepare": "nuxi prepare",
+    "start": "node .output/server/index.mjs",
+    "start:generate": "npx serve .output/public",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@iconify-json/material-symbols": "^1.2.5",
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/eslint": "^0.6.0",
+    "@nuxtjs/color-mode": "^3.5.1",
+    "@pinia/nuxt": "^0.5.5",
+    "@unocss/eslint-config": "^0.63.4",
+    "@unocss/nuxt": "^0.63.4",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "@vueuse/nuxt": "^11.1.0",
+    "consola": "^3.2.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-format": "^0.1.2",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.4",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.6"
+  }
+}
