@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
-    "@iconify-json/material-symbols": "^1.2.5",
+    "@iconify-json/mdi": "^1.2.1",
     "@nuxt/devtools": "^1.6.0",
     "@nuxt/eslint": "^0.6.0",
     "@nuxtjs/color-mode": "^3.5.1",
@@ -33,6 +33,7 @@
     "nuxt": "^3.13.2",
     "pinia": "^2.2.4",
     "typescript": "^5.6.3",
+    "unocss-preset-scrollbar-hide": "^1.0.1",
     "vue-tsc": "^2.1.6"
   }
 }

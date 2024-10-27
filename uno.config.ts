@@ -2,32 +2,43 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
-  presetTypography,
   presetUno,
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import { presetScrollbarHide } from 'unocss-preset-scrollbar-hide'
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
+    {
+      'bg-base': 'bg-[#FFFDFB]',
+      'color-base': 'text-[#333333]',
+      'color-secondary': 'text-[#9C9EB9]',
+      'color-annotation': 'text-[#6B7280]',
+      'shadow-base': 'shadow-[0px_10px_30px_0px_rgba(112,136,210,.2)]',
+      'rounded-base': 'rounded-[1.25rem]',
+    },
   ],
+  theme: {
+    colors: {
+      primary: '#F3B671',
+    },
+  },
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons({
       scale: 1.2,
     }),
-    presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        sans: 'Noto Sans TC',
+        rubik: 'Rubik',
+        roboto: 'Roboto',
       },
     }),
+    presetScrollbarHide(),
   ],
   transformers: [
     transformerDirectives(),
