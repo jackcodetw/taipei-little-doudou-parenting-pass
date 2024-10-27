@@ -1,8 +1,5 @@
 <template>
-  <main class="px-10 py-20 text-center">
-    <slot />
-    <div class="mx-auto mt-5 text-center text-sm opacity-25">
-      [Default Layout]
-    </div>
+  <main pos-relative mxa max-w-sm w-full of-y-auto font-sans min-h-dvh class="scrollbar-hide" text="color-base" bg="base">
+    <RouterView />
   </main>
 </template>
