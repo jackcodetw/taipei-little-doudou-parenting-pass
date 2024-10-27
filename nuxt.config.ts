@@ -71,6 +71,10 @@ export default defineNuxtConfig({
       routes: ['/'],
       ignore: ['/hi'],
     },
+    experimental: {
+      tasks: true,
+      database: true,
+    },
   },
 
   eslint: {
