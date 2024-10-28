@@ -9,9 +9,9 @@
 
 ## License
 
-[MIT](./LICENSE) License © 2024-PRESENT [CofCat](https://github.com/CofCat456)
+[MIT](./LICENSE) License © 2024-PRESENT [Ilya Liao](https://github.com/ilyaliao)
 
 <!-- Badges -->
 
-[license-src]: https://img.shields.io/github/license/CofCat456/taipei-little-doudou-parenting-pass.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/CofCat456/taipei-little-doudou-parenting-pass/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/ilyaliao/taipei-little-doudou-parenting-pass.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/ilyaliao/taipei-little-doudou-parenting-pass/blob/main/LICENSE
